@@ -14,8 +14,8 @@ const isFirefox = firefox > 0; // Only needed if you need to support the redirec
 // Config object to be passed to Msal on creation
 export const msalConfig = {
     auth: {
-     clientId: "1a02af34-14ce-4979-b3bc-813eaae2ee8e",
-     authority: "https://login.microsoftonline.com/a9a9230d-f979-4f0a-87ea-791709b58f41",
+     clientId: "b896b2c2-d141-46af-8f7c-dd09e1502cb5",
+     authority: "https://login.microsoftonline.com/a9a0fbce-bcf6-4efc-b068-34fb2c5b826a",
      redirectUri: "/",
     },
     cache: {
@@ -58,7 +58,7 @@ export const loginRequest = {
 export const SCOPES = {
  USER_READ: ["User.Read"],
  USER_READ_WRITE: ["User.ReadWrite.All"],
- DEFAULT: ["1a02af34-14ce-4979-b3bc-813eaae2ee8e/.default"]
+ DEFAULT: ["b896b2c2-d141-46af-8f7c-dd09e1502cb5/.default"]
 }
 
 export const MSGraphAPIs = {
